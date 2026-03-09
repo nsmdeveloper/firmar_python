@@ -20,9 +20,11 @@ El script implementa la firma de tipo **Enveloped Signature** (XML-DSig) utiliza
 Para procesar XML y criptografía en Python, se requieren algunas librerías de sistema. 
 
 ### En Linux (Ubuntu/Debian)
+
 ```bash
 sudo apt-get update
 sudo apt-get install -y libxml2-dev libxslt-dev python3-dev
+```
 
 # Requisitos de Software y Librerías 📦
 
@@ -32,4 +34,7 @@ Para que el proceso de firma digital de e-CF funcione correctamente, es necesari
 Puedes instalar todas las librerías necesarias ejecutando el siguiente comando en tu terminal:
 
 ```bash
+sudo apt-get update
+sudo apt-get install -y libxml2-dev libxslt-dev python3-dev
 pip install lxml signxml cryptography
+```
