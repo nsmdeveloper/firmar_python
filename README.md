@@ -34,8 +34,6 @@ Para que el proceso de firma digital de e-CF funcione correctamente, es necesari
 Puedes instalar todas las librerías necesarias ejecutando el siguiente comando en tu terminal:
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y libxml2-dev libxslt-dev python3-dev
 pip install lxml signxml cryptography
 ```
 
